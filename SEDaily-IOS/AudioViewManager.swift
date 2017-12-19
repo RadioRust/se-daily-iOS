@@ -109,7 +109,7 @@ class AudioViewManager: NSObject {
             setText(text: podcastModel?.podcastTitle)
             return
         }
-
+        
         audioView = AudioView()
         audioView?.delegate = self
 
